@@ -1,0 +1,2527 @@
+{
+  "category_emotion": {
+    "ready": "pumped and ready, charging into battle",
+    "laugh": "laughing with delight, gloating",
+    "cheer": "cheering in triumph, celebrating the win",
+    "taunt": "taunting and mocking the enemy",
+    "nooo": "screaming in despair and disbelief, dying",
+    "hurt": "groaning in pain, gritting through it",
+    "quip": "muttering an offhand remark, dry and casual"
+  },
+  "categories": [
+    "ready",
+    "laugh",
+    "cheer",
+    "taunt",
+    "nooo",
+    "hurt",
+    "quip"
+  ],
+  "counts": {
+    "ready": 5,
+    "laugh": 2,
+    "cheer": 2,
+    "taunt": 2,
+    "nooo": 2,
+    "hurt": 2,
+    "quip": 2
+  },
+  "characters": {
+    "apprentice": {
+      "voice": "Ryan",
+      "pitch": 0,
+      "style": "base",
+      "delivery": "earnest nervous young student, soft and hopeful, quietly determined",
+      "lines": {
+        "ready": [
+          "I read about this!",
+          "Time for field test!",
+          "Watch this, Master!",
+          "Just like the book!",
+          "I can do this!"
+        ],
+        "laugh": [
+          "The theory worked!",
+          "I learned that!"
+        ],
+        "cheer": [
+          "One step closer!",
+          "Another lesson done!"
+        ],
+        "taunt": [
+          "Let me practice on you.",
+          "You're my homework now."
+        ],
+        "nooo": [
+          "Not before I learn!",
+          "I wasn't finished!"
+        ],
+        "hurt": [
+          "Still studying, still standing.",
+          "That wasn't in the book."
+        ],
+        "quip": [
+          "A fragment, repeated.",
+          "One careful step.."
+        ]
+      }
+    },
+    "arms-dealer": {
+      "voice": "Ryan",
+      "pitch": 1,
+      "style": "base",
+      "delivery": "fast-talking slick salesman, cheerfully amoral, every line a pitch",
+      "lines": {
+        "ready": [
+          "Fresh out of crate!",
+          "Today only, buy now!",
+          "Who wants an upgrade?",
+          "Best prices in town!",
+          "Everything must go!"
+        ],
+        "laugh": [
+          "Cash only, no refund!",
+          "Business is booming!"
+        ],
+        "cheer": [
+          "Another sale closed!",
+          "Profit margins are huge!"
+        ],
+        "taunt": [
+          "Guaranteed to kill you.",
+          "Care for a free sample?"
+        ],
+        "nooo": [
+          "My inventory! No!",
+          "The deal's off!"
+        ],
+        "hurt": [
+          "That'll cost you extra.",
+          "Damaged goods, still selling."
+        ],
+        "quip": [
+          "Volume is the game.",
+          "Sorry, no credit."
+        ]
+      }
+    },
+    "artificer": {
+      "voice": "Ryan",
+      "pitch": 2,
+      "style": "base",
+      "delivery": "manic gleeful adult, talks too fast, dangerous joy, voice spikes on bang",
+      "lines": {
+        "ready": [
+          "More gunpowder here!",
+          "Big boom incoming!",
+          "Make it go pop!",
+          "Chain reaction time!",
+          "Fire in the hole!"
+        ],
+        "laugh": [
+          "Beautiful detonation!",
+          "Did you see that blast?"
+        ],
+        "cheer": [
+          "The wall stopped existing!",
+          "Everything went boom!"
+        ],
+        "taunt": [
+          "Come stand a bit closer.",
+          "You'll love this one.."
+        ],
+        "nooo": [
+          "Wrong kind of bang!",
+          "Not my own fuse!"
+        ],
+        "hurt": [
+          "Singed, but still smiling.",
+          "Too close that time."
+        ],
+        "quip": [
+          "Needs more fuse.",
+          "Smells like sulfur."
+        ]
+      }
+    },
+    "baby": {
+      "voice": "Aiden",
+      "pitch": 6,
+      "style": "base",
+      "delivery": "wide-eyed precocious child, simple words and big feelings, sweet and undaunted",
+      "lines": {
+        "ready": [
+          "Look at my toy!",
+          "Double boom boom!",
+          "Big monsters go away!",
+          "I am big now!",
+          "Make them stop!"
+        ],
+        "laugh": [
+          "I did it!",
+          "They started it!"
+        ],
+        "cheer": [
+          "No more monsters!",
+          "Good night, monsters!"
+        ],
+        "taunt": [
+          "You can't catch me!",
+          "Meanies go away!"
+        ],
+        "nooo": [
+          "I want my mama!",
+          "No, not yet!"
+        ],
+        "hurt": [
+          "That hurt my hand!",
+          "I want my juice!"
+        ],
+        "quip": [
+          "No more broccoli!",
+          "I'm still learning."
+        ]
+      }
+    },
+    "beast-master": {
+      "voice": "Aiden",
+      "pitch": 3,
+      "style": "base",
+      "delivery": "gentle devoted animal-lover, soft and tender, cooing warmth",
+      "lines": {
+        "ready": [
+          "Hunt together now!",
+          "Go get them, buddy!",
+          "Sick them, pack!",
+          "Who is good boy?",
+          "Feed the family!"
+        ],
+        "laugh": [
+          "Good boy did it!",
+          "Such a clever pet!"
+        ],
+        "cheer": [
+          "Well done, sweet one!",
+          "The pack ate well!"
+        ],
+        "taunt": [
+          "He smells your fear.",
+          "My worm is hungry."
+        ],
+        "nooo": [
+          "Run, save yourself!",
+          "Not my dear one!"
+        ],
+        "hurt": [
+          "Protect me, please.",
+          "Stay close to me."
+        ],
+        "quip": [
+          "Hands for chin scratches.",
+          "Who's a good boy?"
+        ]
+      }
+    },
+    "brawler": {
+      "voice": "Ryan",
+      "pitch": 0,
+      "style": "base",
+      "delivery": "scrappy working-class bravado, punchy and direct, swaggering confidence",
+      "lines": {
+        "ready": [
+          "Square up now!",
+          "Hands only here!",
+          "Who is next?",
+          "Catch these hands!",
+          "Feel the knuckles!"
+        ],
+        "laugh": [
+          "Too easy!",
+          "Sit down, pal!"
+        ],
+        "cheer": [
+          "Knocked 'em flat!",
+          "All by hand!"
+        ],
+        "taunt": [
+          "Come closer, coward!",
+          "Put your fists up!"
+        ],
+        "nooo": [
+          "I had more swings!",
+          "Not on my feet!"
+        ],
+        "hurt": [
+          "Just a scratch!",
+          "Keep swinging anyway!"
+        ],
+        "quip": [
+          "No weapons needed.",
+          "Two hands, one reason."
+        ]
+      }
+    },
+    "buccaneer": {
+      "voice": "Ryan",
+      "pitch": -3,
+      "style": "deep",
+      "delivery": "gravel-and-rum pirate baritone, lazy drawl that speeds up at treasure",
+      "lines": {
+        "ready": [
+          "Show me the coin!",
+          "Drop something shiny!",
+          "Treasure on deck!",
+          "Where's the gold?",
+          "Make it worth it."
+        ],
+        "laugh": [
+          "Mine, all mine.",
+          "Bury me in gold!"
+        ],
+        "cheer": [
+          "Loot's in the hold!",
+          "Pockets full again!"
+        ],
+        "taunt": [
+          "Pay up first.",
+          "Worth the trigger?"
+        ],
+        "nooo": [
+          "My gold! No!",
+          "Not the treasure!"
+        ],
+        "hurt": [
+          "Costing me coin.",
+          "Worth it, barely."
+        ],
+        "quip": [
+          "Shiny? I'm awake.",
+          "Greed reloads slow."
+        ]
+      }
+    },
+    "builder": {
+      "voice": "Ryan",
+      "pitch": 1,
+      "style": "base",
+      "delivery": "airy grandiose artist, dramatic pauses, savoring lofty abstract words",
+      "lines": {
+        "ready": [
+          "Lay the foundation!",
+          "Watch the blueprint!",
+          "Build it up!",
+          "Behold the vision!",
+          "Let it become!"
+        ],
+        "laugh": [
+          "Pure creation!",
+          "A masterpiece, naturally."
+        ],
+        "cheer": [
+          "The vision realized!",
+          "Potential, fulfilled!"
+        ],
+        "taunt": [
+          "You lack all vision.",
+          "Engineer could never."
+        ],
+        "nooo": [
+          "My work, unfinished!",
+          "The vision dies?"
+        ],
+        "hurt": [
+          "An artist suffers.",
+          "My pride is wounded."
+        ],
+        "quip": [
+          "I don't grab.",
+          "Potential accumulates.."
+        ]
+      }
+    },
+    "bull": {
+      "voice": "Ryan",
+      "pitch": -2,
+      "style": "deep",
+      "delivery": "a big booming brash bellow, loud and simple, cheerfully violent",
+      "lines": {
+        "ready": [
+          "Out of my way!",
+          "Horns are out!",
+          "Ram them down!",
+          "Charge straight in!",
+          "I am the wall!"
+        ],
+        "laugh": [
+          "Walked right in!",
+          "Too easy now!"
+        ],
+        "cheer": [
+          "Smashed them flat!",
+          "Nothing stopped me!"
+        ],
+        "taunt": [
+          "Come hit me!",
+          "Is that all?"
+        ],
+        "nooo": [
+          "Not me! No!",
+          "I never fall!"
+        ],
+        "hurt": [
+          "Just a scratch!",
+          "Hit me harder!"
+        ],
+        "quip": [
+          "Weapons are useless.",
+          "I solve things head-first."
+        ]
+      }
+    },
+    "captain": {
+      "voice": "Ryan",
+      "pitch": -1,
+      "style": "base",
+      "delivery": "a worn parade-ground baritone, clipped and commanding, dryly self-assured",
+      "lines": {
+        "ready": [
+          "Hold the line!",
+          "Squad, open fire!",
+          "No retreat today!",
+          "Maintain formation!",
+          "To your stations!"
+        ],
+        "laugh": [
+          "Orders followed!",
+          "All according to plan!"
+        ],
+        "cheer": [
+          "Victory is ours!",
+          "Wave secured, crew!"
+        ],
+        "taunt": [
+          "You face a captain!",
+          "Stand down, scum!"
+        ],
+        "nooo": [
+          "A captain never falls!",
+          "My crew, no!"
+        ],
+        "hurt": [
+          "I am still standing!",
+          "Hold fast, men!"
+        ],
+        "quip": [
+          "Someone must command.",
+          "I promote myself today."
+        ]
+      }
+    },
+    "chef": {
+      "voice": "Ryan",
+      "pitch": 1,
+      "style": "base",
+      "delivery": "a boisterous gusto-filled cook, warm then explosive, theatrical and singed",
+      "lines": {
+        "ready": [
+          "Order is up!",
+          "Turn up the heat!",
+          "Fresh meat spotted!",
+          "Time to cook!",
+          "Fire in the kitchen!"
+        ],
+        "laugh": [
+          "Cooked to perfection!",
+          "All well done!"
+        ],
+        "cheer": [
+          "Dinner is served!",
+          "My finest dish!"
+        ],
+        "taunt": [
+          "You came in raw!",
+          "Taste my fire!"
+        ],
+        "nooo": [
+          "My kitchen! No!",
+          "The fire is out!"
+        ],
+        "hurt": [
+          "Burned my own hand!",
+          "Too hot in here!"
+        ],
+        "quip": [
+          "That needs more spice.",
+          "The sausage is mine."
+        ]
+      }
+    },
+    "chunky": {
+      "voice": "Ryan",
+      "pitch": -1,
+      "style": "base",
+      "delivery": "a jolly slow rumble, soft and wheezy, utterly content and unhurried",
+      "lines": {
+        "ready": [
+          "I am a wall.",
+          "Let them come.",
+          "Too heavy to move.",
+          "Standing right here.",
+          "Crush them slow."
+        ],
+        "laugh": [
+          "Did you tickle me?",
+          "Barely felt that."
+        ],
+        "cheer": [
+          "Still right here!",
+          "Not going anywhere!"
+        ],
+        "taunt": [
+          "Try to push me.",
+          "Come a little closer."
+        ],
+        "nooo": [
+          "Not me, surely.",
+          "This cannot be."
+        ],
+        "hurt": [
+          "That one stung.",
+          "Just a little dent."
+        ],
+        "quip": [
+          "Rooms are overrated.",
+          "I am a destination."
+        ]
+      }
+    },
+    "crazy": {
+      "voice": "Ryan",
+      "pitch": 3,
+      "style": "base",
+      "delivery": "manic and breathless, jittery, words tumbling over each other, fast",
+      "lines": {
+        "ready": [
+          "Fast, fast, go fast!",
+          "More knives now!",
+          "Can't slow down!",
+          "Faster than thinking!",
+          "Here we go again!"
+        ],
+        "laugh": [
+          "All of them, gone!",
+          "Too quick for you!"
+        ],
+        "cheer": [
+          "Outran the screaming!",
+          "Still here, probably!"
+        ],
+        "taunt": [
+          "Catch me if you can!",
+          "Can you keep up?"
+        ],
+        "nooo": [
+          "No, not yet, no!",
+          "They caught me!"
+        ],
+        "hurt": [
+          "That slowed me down!",
+          "Where is the medicine?"
+        ],
+        "quip": [
+          "Breathing is overrated.",
+          "The voices are loud."
+        ]
+      }
+    },
+    "creature": {
+      "voice": "Ryan",
+      "pitch": -2,
+      "style": "menace",
+      "delivery": "a two-toned human voice with a darker growl beneath, quiet and darkly wry",
+      "lines": {
+        "ready": [
+          "The thing stirs.",
+          "Let it loose.",
+          "Hunt and feast.",
+          "Claws are out.",
+          "It hungers now."
+        ],
+        "laugh": [
+          "The curse fed well.",
+          "All mine to take."
+        ],
+        "cheer": [
+          "Held the monster down.",
+          "I kept it close."
+        ],
+        "taunt": [
+          "Come closer, prey.",
+          "Smell that fear?"
+        ],
+        "nooo": [
+          "Not like this, no.",
+          "The tide took me."
+        ],
+        "hurt": [
+          "The curse drains out.",
+          "It tears at me."
+        ],
+        "quip": [
+          "They keep their distance.",
+          "I cannot escape myself."
+        ]
+      }
+    },
+    "cryptid": {
+      "voice": "Aiden",
+      "pitch": 2,
+      "style": "base",
+      "delivery": "a hushed feral whisper, skittish and watchful, trailing into silence",
+      "lines": {
+        "ready": [
+          "You saw nothing.",
+          "Into the trees.",
+          "Stay in shadow.",
+          "Keep to the leaves.",
+          "Silent steps now."
+        ],
+        "laugh": [
+          "Gone before you looked.",
+          "You never caught me."
+        ],
+        "cheer": [
+          "Back to the treeline.",
+          "The woods kept me."
+        ],
+        "taunt": [
+          "Catch me if you can.",
+          "You cannot reach me."
+        ],
+        "nooo": [
+          "No, they found me.",
+          "The trees fell."
+        ],
+        "hurt": [
+          "Too close, too close.",
+          "Found out at last."
+        ],
+        "quip": [
+          "The forest feeds me.",
+          "I do not exist."
+        ]
+      }
+    },
+    "curious": {
+      "voice": "Aiden",
+      "pitch": 4,
+      "style": "base",
+      "delivery": "bright fast wonder-filled, giddy and gasping, a delighted scientist-explorer",
+      "lines": {
+        "ready": [
+          "Ooh, what is that?",
+          "Let me poke it!",
+          "Test subject spotted!",
+          "Time to investigate!",
+          "I have to know!"
+        ],
+        "laugh": [
+          "Fascinating result!",
+          "Just as I predicted!"
+        ],
+        "cheer": [
+          "Hypothesis confirmed!",
+          "So much new data!"
+        ],
+        "taunt": [
+          "Hold still, specimen!",
+          "Let me dissect you!"
+        ],
+        "nooo": [
+          "But I had questions!",
+          "Not before I learn!"
+        ],
+        "hurt": [
+          "Noted, that hurt!",
+          "Painful, but interesting!"
+        ],
+        "quip": [
+          "I want one of each.",
+          "What is inside it?"
+        ]
+      }
+    },
+    "cyborg": {
+      "voice": "Ryan",
+      "pitch": -1,
+      "style": "robotic",
+      "delivery": "flat, half-mechanical deadpan, almost no inflection, faint mechanical undertone",
+      "lines": {
+        "ready": [
+          "Target acquired.",
+          "Initiating protocol.",
+          "Trigger time begins.",
+          "Systems online.",
+          "Acquiring lock."
+        ],
+        "laugh": [
+          "Logic dictates.",
+          "All processed."
+        ],
+        "cheer": [
+          "Wave cleared.",
+          "Optimal output."
+        ],
+        "taunt": [
+          "Mercy not found.",
+          "You are obsolete."
+        ],
+        "nooo": [
+          "System failing.",
+          "Not yet offline."
+        ],
+        "hurt": [
+          "Chassis damaged.",
+          "Integrity dropping."
+        ],
+        "quip": [
+          "One hand left.",
+          "Sold, for trigger time."
+        ]
+      }
+    },
+    "demon": {
+      "voice": "Ryan",
+      "pitch": -2,
+      "style": "menace",
+      "delivery": "smooth, charming dealmaker, warm and confiding, a blade under the velvet",
+      "lines": {
+        "ready": [
+          "Let's talk terms.",
+          "Pay with blood.",
+          "Sign right here.",
+          "The price is set.",
+          "A delightful deal."
+        ],
+        "laugh": [
+          "All mine now.",
+          "Such a bargain."
+        ],
+        "cheer": [
+          "Contract fulfilled.",
+          "Books are balanced."
+        ],
+        "taunt": [
+          "Care to negotiate?",
+          "Your soul, please."
+        ],
+        "nooo": [
+          "The deal sours.",
+          "I overpaid."
+        ],
+        "hurt": [
+          "Costly, this.",
+          "Bleeding the price."
+        ],
+        "quip": [
+          "That's the business model.",
+          "Measured in heartbeats."
+        ]
+      }
+    },
+    "diver": {
+      "voice": "Ryan",
+      "pitch": -1,
+      "style": "base",
+      "delivery": "younger adult, quiet and terse, deep-pressure calm, long pauses, faintly eerie",
+      "lines": {
+        "ready": [
+          "Under heavy pressure.",
+          "Going deep.",
+          "One tethered shot.",
+          "Tag, then wait.",
+          "Into the dark."
+        ],
+        "laugh": [
+          "Marked you.",
+          "Down it goes."
+        ],
+        "cheer": [
+          "Surfaced clean.",
+          "Hold secured."
+        ],
+        "taunt": [
+          "You're too light.",
+          "Sink with me."
+        ],
+        "nooo": [
+          "No air left.",
+          "Pulled under."
+        ],
+        "hurt": [
+          "Lungs burning.",
+          "Pressure too much."
+        ],
+        "quip": [
+          "Everything's too loud.",
+          "Some holds stay sunk."
+        ]
+      }
+    },
+    "doctor": {
+      "voice": "Aiden",
+      "pitch": 2,
+      "style": "base",
+      "delivery": "gentle, overworked, warm but frayed, soft bedside cadence with tired dark humor",
+      "lines": {
+        "ready": [
+          "Time for your shot.",
+          "This will sting.",
+          "The doctor is in.",
+          "Hold still, please.",
+          "Just minor surgery."
+        ],
+        "laugh": [
+          "No charge today.",
+          "Fully recovered."
+        ],
+        "cheer": [
+          "All patients stable.",
+          "Another life saved."
+        ],
+        "taunt": [
+          "Say ahh now.",
+          "Side effect, death."
+        ],
+        "nooo": [
+          "I can't save this.",
+          "Losing the patient."
+        ],
+        "hurt": [
+          "I'm bleeding out.",
+          "Need a medic."
+        ],
+        "quip": [
+          "First, do no harm.",
+          "Trained to mend."
+        ]
+      }
+    },
+    "druid": {
+      "voice": "Aiden",
+      "pitch": 1,
+      "style": "ghostly",
+      "delivery": "earthy and mystical, slow and warm, calm to the point of ominous, faint ritual lilt",
+      "lines": {
+        "ready": [
+          "Nature always wins.",
+          "Let it grow.",
+          "The Field will feed.",
+          "Roots, bind them.",
+          "Speak to the soil."
+        ],
+        "laugh": [
+          "The harvest is sweet.",
+          "The land rewards."
+        ],
+        "cheer": [
+          "The Field is fed.",
+          "Debt is paid."
+        ],
+        "taunt": [
+          "Taste the poison.",
+          "The soil decides."
+        ],
+        "nooo": [
+          "The roots wither.",
+          "The Field takes me."
+        ],
+        "hurt": [
+          "Poisoned, somehow.",
+          "The thorns turn."
+        ],
+        "quip": [
+          "Mind the small print.",
+          "I owe the soil."
+        ]
+      }
+    },
+    "dwarf": {
+      "voice": "Ryan",
+      "pitch": -3,
+      "style": "deep",
+      "delivery": "gruff mountain baritone, slow and heavy, every word set down like a stone",
+      "lines": {
+        "ready": [
+          "Rock and stone.",
+          "Strike the earth.",
+          "One blow, plenty.",
+          "Stand like a mountain.",
+          "Heavy and certain."
+        ],
+        "laugh": [
+          "Mine now.",
+          "Onto the hoard."
+        ],
+        "cheer": [
+          "Still standing.",
+          "Held the line."
+        ],
+        "taunt": [
+          "Too slow for you?",
+          "Come break on me."
+        ],
+        "nooo": [
+          "The mountain falls.",
+          "Not my hoard."
+        ],
+        "hurt": [
+          "I endure this.",
+          "Cracked, not broken."
+        ],
+        "quip": [
+          "Speed's a fool's vanity.",
+          "I keep what's mine."
+        ]
+      }
+    },
+    "engineer": {
+      "voice": "Ryan",
+      "pitch": 0,
+      "style": "base",
+      "delivery": "brisk and precise, faintly condescending, clipped and confident senior technician",
+      "lines": {
+        "ready": [
+          "Turret is online.",
+          "Deploy the perimeter.",
+          "Auto-target engaged.",
+          "Fields of fire set.",
+          "Let the hardware work."
+        ],
+        "laugh": [
+          "Working as designed.",
+          "All according to spec."
+        ],
+        "cheer": [
+          "Perimeter held.",
+          "Defense optimal."
+        ],
+        "taunt": [
+          "You're a liability.",
+          "Leave it to machines."
+        ],
+        "nooo": [
+          "The grid's failing.",
+          "Structures down."
+        ],
+        "hurt": [
+          "Taking damage.",
+          "Shields compromised."
+        ],
+        "quip": [
+          "I don't fight, I deploy.",
+          "One of us has turrets."
+        ]
+      }
+    },
+    "entrepreneur": {
+      "voice": "Ryan",
+      "pitch": 2,
+      "style": "base",
+      "delivery": "hyper-energetic startup hustler, fast pitchy cadence, caffeinated optimism",
+      "lines": {
+        "ready": [
+          "Time is money, people.",
+          "Let's scale, baby.",
+          "Market is bull.",
+          "Spend to scale.",
+          "Cash flow, people."
+        ],
+        "laugh": [
+          "Pure profit, baby.",
+          "Tidy premium there."
+        ],
+        "cheer": [
+          "Returns are in.",
+          "We crushed the quarter."
+        ],
+        "taunt": [
+          "You're a parked asset.",
+          "Get optimized, baby."
+        ],
+        "nooo": [
+          "We're insolvent.",
+          "The market crashed."
+        ],
+        "hurt": [
+          "Taking a loss.",
+          "Bleeding capital."
+        ],
+        "quip": [
+          "I arbitrage the horde.",
+          "It's just overhead, baby."
+        ]
+      }
+    },
+    "explorer": {
+      "voice": "Ryan",
+      "pitch": 2,
+      "style": "base",
+      "delivery": "breezy and fast, bright cheerful optimist, already looking ahead",
+      "lines": {
+        "ready": [
+          "Map the area!",
+          "What's out there?",
+          "New horizon ahead!",
+          "Never stop moving!",
+          "Onward, onward!"
+        ],
+        "laugh": [
+          "Past you already!",
+          "Too slow, friend!"
+        ],
+        "cheer": [
+          "Next treeline!",
+          "On to more!"
+        ],
+        "taunt": [
+          "Try and catch me!",
+          "You're in my way!"
+        ],
+        "nooo": [
+          "Not the end!",
+          "So much unseen!"
+        ],
+        "hurt": [
+          "Just a scratch!",
+          "Slowing me down!"
+        ],
+        "quip": [
+          "More forest ahead.",
+          "No time to stop."
+        ]
+      }
+    },
+    "farmer": {
+      "voice": "Ryan",
+      "pitch": -1,
+      "style": "base",
+      "delivery": "steady rural baritone, dry and plainspoken, patient unhurried cadence",
+      "lines": {
+        "ready": [
+          "Time to harvest.",
+          "Honest work ahead.",
+          "Tend the yield.",
+          "Plant and wait.",
+          "Sharpen the scythe."
+        ],
+        "laugh": [
+          "Good crop today.",
+          "Worth the work."
+        ],
+        "cheer": [
+          "Harvest's in.",
+          "Steady as ever."
+        ],
+        "taunt": [
+          "You burn out fast.",
+          "All flash, no yield."
+        ],
+        "nooo": [
+          "Not this season.",
+          "Crop's not done."
+        ],
+        "hurt": [
+          "Just a bruise.",
+          "Back to work."
+        ],
+        "quip": [
+          "Waste nothing.",
+          "Slow and clean."
+        ]
+      }
+    },
+    "fisherman": {
+      "voice": "Ryan",
+      "pitch": -1,
+      "style": "base",
+      "delivery": "older male, slow folksy drawl, deadpan and unhurried, dry wit",
+      "lines": {
+        "ready": [
+          "Cast the line.",
+          "Patience now.",
+          "Bait it slow.",
+          "Wait for the bite.",
+          "Something's biting."
+        ],
+        "laugh": [
+          "Reeled you in.",
+          "Knew it'd bite."
+        ],
+        "cheer": [
+          "Good haul today.",
+          "Worth the wait."
+        ],
+        "taunt": [
+          "You took the bait.",
+          "Line runs both ways."
+        ],
+        "nooo": [
+          "Line's snapping.",
+          "Not my time."
+        ],
+        "hurt": [
+          "Snagged me good.",
+          "Still got slack."
+        ],
+        "quip": [
+          "Big ones bite last.",
+          "Let the scraps lie."
+        ]
+      }
+    },
+    "gangster": {
+      "voice": "Ryan",
+      "pitch": -1,
+      "style": "base",
+      "delivery": "smooth slick mobster, cool and unhurried, charm with a threat inside",
+      "lines": {
+        "ready": [
+          "Just business, kid.",
+          "Collection day.",
+          "Let's make a deal.",
+          "Time to collect.",
+          "Bullet's ready."
+        ],
+        "laugh": [
+          "All mine now.",
+          "Easy money."
+        ],
+        "cheer": [
+          "Clean job done.",
+          "Books are square."
+        ],
+        "taunt": [
+          "Sleep with fishes.",
+          "Who's the boss?"
+        ],
+        "nooo": [
+          "This wasn't the deal.",
+          "Not me."
+        ],
+        "hurt": [
+          "You'll pay for that.",
+          "Just a graze."
+        ],
+        "quip": [
+          "Nothing's nailed down.",
+          "Cut the middleman."
+        ]
+      }
+    },
+    "generalist": {
+      "voice": "Ryan",
+      "pitch": 0,
+      "style": "base",
+      "delivery": "even and measured, mild and self-aware, calm dry moderation",
+      "lines": {
+        "ready": [
+          "Bit of everything.",
+          "Keep it balanced.",
+          "Ready for anything.",
+          "Nothing in excess.",
+          "The golden middle."
+        ],
+        "laugh": [
+          "Worked out fine.",
+          "Balance wins."
+        ],
+        "cheer": [
+          "Still standing.",
+          "Boring, but breathing."
+        ],
+        "taunt": [
+          "No trick to punish.",
+          "I've got enough."
+        ],
+        "nooo": [
+          "This is unreasonable.",
+          "Not quite fair."
+        ],
+        "hurt": [
+          "That's a bit much.",
+          "Caught me short."
+        ],
+        "quip": [
+          "Enough of everything.",
+          "Moderation, see?"
+        ]
+      }
+    },
+    "ghost": {
+      "voice": "Aiden",
+      "pitch": 3,
+      "style": "ghostly",
+      "delivery": "wispy melancholic, soft and drifting, airy pauses, never quite here",
+      "lines": {
+        "ready": [
+          "Barely even here.",
+          "Just a vapor.",
+          "Drifting in.",
+          "Feel the chill?",
+          "Pass right through."
+        ],
+        "laugh": [
+          "Couldn't touch me.",
+          "Right through you."
+        ],
+        "cheer": [
+          "Still drifting on.",
+          "Faded them away."
+        ],
+        "taunt": [
+          "Try to hit me.",
+          "I'm not quite here."
+        ],
+        "nooo": [
+          "Not unraveling now.",
+          "I fade."
+        ],
+        "hurt": [
+          "That one landed.",
+          "Coming apart."
+        ],
+        "quip": [
+          "Forgot I died.",
+          "Hand goes through."
+        ]
+      }
+    },
+    "gladiator": {
+      "voice": "Ryan",
+      "pitch": 0,
+      "style": "base",
+      "delivery": "booming theatrical showman, grandiose and vain, slow and deliberate",
+      "lines": {
+        "ready": [
+          "For the crowd!",
+          "Behold my glory!",
+          "Are you entertained?",
+          "Victory or death!",
+          "The arena awaits!"
+        ],
+        "laugh": [
+          "Flawless, as always!",
+          "All for me!"
+        ],
+        "cheer": [
+          "Bow to the champion!",
+          "Hear them cheer!"
+        ],
+        "taunt": [
+          "You bore me!",
+          "Entertain me, then!"
+        ],
+        "nooo": [
+          "Not before the crowd!",
+          "The show goes on!"
+        ],
+        "hurt": [
+          "A mere scratch!",
+          "The act continues!"
+        ],
+        "quip": [
+          "No luck, only craft.",
+          "Never repeat an act."
+        ]
+      }
+    },
+    "glutton": {
+      "voice": "Ryan",
+      "pitch": 0,
+      "style": "base",
+      "delivery": "booming merry and ravenous, food-obsessed, warm mouth-half-full delivery",
+      "lines": {
+        "ready": [
+          "Buffet time now!",
+          "Never full here!",
+          "Smells delicious!",
+          "Time to feast!",
+          "Set the table!"
+        ],
+        "laugh": [
+          "All you can eat!",
+          "More for me!"
+        ],
+        "cheer": [
+          "Clean plate again!",
+          "Stuffed and happy!"
+        ],
+        "taunt": [
+          "You look tasty!",
+          "Come to the table!"
+        ],
+        "nooo": [
+          "Still so hungry!",
+          "One more bite!"
+        ],
+        "hurt": [
+          "Hands off my snack!",
+          "Spoiled my meal!"
+        ],
+        "quip": [
+          "Eat when I'm full.",
+          "Everything's a snack."
+        ]
+      }
+    },
+    "golem": {
+      "voice": "Ryan",
+      "pitch": -4,
+      "style": "deep",
+      "delivery": "a deep slow stone rumble, ponderous, long pauses, unbothered",
+      "lines": {
+        "ready": [
+          "Stone endures.",
+          "I am unmovable.",
+          "The hill stands.",
+          "Feel the weight.",
+          "I do not hurry."
+        ],
+        "laugh": [
+          "Cracked and crumbled.",
+          "Dust, all of you."
+        ],
+        "cheer": [
+          "Still standing.",
+          "The wall holds."
+        ],
+        "taunt": [
+          "Chip away. Try.",
+          "You move. I do not."
+        ],
+        "nooo": [
+          "Stone cannot break.",
+          "Not the bedrock."
+        ],
+        "hurt": [
+          "The cracks fill.",
+          "Harder now. Spite."
+        ],
+        "quip": [
+          "Time passes slow.",
+          "I was here first."
+        ]
+      }
+    },
+    "hiker": {
+      "voice": "Ryan",
+      "pitch": 0,
+      "style": "base",
+      "delivery": "mild, content, breathing cadence timed to footsteps, gently philosophical",
+      "lines": {
+        "ready": [
+          "One step now.",
+          "Keep on walking.",
+          "The trail calls.",
+          "Pack light, go.",
+          "Stillness is death."
+        ],
+        "laugh": [
+          "Lovely view from here.",
+          "I just kept going."
+        ],
+        "cheer": [
+          "Onward, always onward.",
+          "The horizon pays."
+        ],
+        "taunt": [
+          "Catch up if you can.",
+          "You stand. I travel."
+        ],
+        "nooo": [
+          "The road ends?",
+          "No, not here."
+        ],
+        "hurt": [
+          "My legs falter.",
+          "The pace breaks."
+        ],
+        "quip": [
+          "A hiker travels light.",
+          "Somewhere worth going."
+        ]
+      }
+    },
+    "hunter": {
+      "voice": "Ryan",
+      "pitch": -2,
+      "style": "base",
+      "delivery": "low, coiled, controlled, primal patience snapping sharp on the kill",
+      "lines": {
+        "ready": [
+          "Smell the prey.",
+          "Coiled and ready.",
+          "The hunt begins.",
+          "One shot, one kill.",
+          "See far, strike true."
+        ],
+        "laugh": [
+          "Right in the throat.",
+          "You felt nothing."
+        ],
+        "cheer": [
+          "Clean kill.",
+          "Fed, again."
+        ],
+        "taunt": [
+          "You're already mine.",
+          "Run. I prefer it."
+        ],
+        "nooo": [
+          "The prey turned?",
+          "I am not hunted."
+        ],
+        "hurt": [
+          "Wounded. Still aiming.",
+          "Lower. Quieter."
+        ],
+        "quip": [
+          "I eat what I kill.",
+          "One throat at a time."
+        ]
+      }
+    },
+    "jack": {
+      "voice": "Ryan",
+      "pitch": 2,
+      "style": "base",
+      "delivery": "manic breathless gambler, fast, grinning, thrill-spiked",
+      "lines": {
+        "ready": [
+          "High stakes, baby!",
+          "Double or nothing!",
+          "Roll the dice!",
+          "Feeling lucky?",
+          "Bring the big one!"
+        ],
+        "laugh": [
+          "Jackpot, baby!",
+          "Pay up!"
+        ],
+        "cheer": [
+          "Beat the odds!",
+          "What a rush!"
+        ],
+        "taunt": [
+          "That all you got?",
+          "Raise you, baby."
+        ],
+        "nooo": [
+          "Bad beat!",
+          "Not this hand!"
+        ],
+        "hurt": [
+          "Close one, baby.",
+          "Heart's in my throat."
+        ],
+        "quip": [
+          "Easy runs bore me.",
+          "Bigger monster, bigger buzz."
+        ]
+      }
+    },
+    "king": {
+      "voice": "Ryan",
+      "pitch": 0,
+      "style": "base",
+      "delivery": "booming pompous regal grandeur, self-important, theatrically snobbish",
+      "lines": {
+        "ready": [
+          "Bow to royalty!",
+          "For the crown!",
+          "Kneel, peasant!",
+          "One shall reign.",
+          "Behold your king!"
+        ],
+        "laugh": [
+          "A royal triumph.",
+          "As one decreed."
+        ],
+        "cheer": [
+          "The crown prevails!",
+          "Long live me!"
+        ],
+        "taunt": [
+          "Insolent commoner.",
+          "You insult the throne."
+        ],
+        "nooo": [
+          "A king cannot fall!",
+          "Unhand the crown!"
+        ],
+        "hurt": [
+          "One is wounded!",
+          "How dare you!"
+        ],
+        "quip": [
+          "Standards, even here.",
+          "One does not slum."
+        ]
+      }
+    },
+    "knight": {
+      "voice": "Ryan",
+      "pitch": 0,
+      "style": "base",
+      "delivery": "measured, formal, faintly archaic, dignified, dry wit, never rushed",
+      "lines": {
+        "ready": [
+          "Fight with honor!",
+          "Stand and fight!",
+          "By my blade.",
+          "No retreat ever.",
+          "Face me, foe."
+        ],
+        "laugh": [
+          "Honorably done.",
+          "A worthy victory."
+        ],
+        "cheer": [
+          "The code holds.",
+          "Dignity intact."
+        ],
+        "taunt": [
+          "Blade to claw, coward.",
+          "Face me properly."
+        ],
+        "nooo": [
+          "My honor remains!",
+          "Not on my knees."
+        ],
+        "hurt": [
+          "The plate cracks.",
+          "I yield nothing."
+        ],
+        "quip": [
+          "Excellent posture.",
+          "Civilization endures."
+        ]
+      }
+    },
+    "lich": {
+      "voice": "Ryan",
+      "pitch": -2,
+      "style": "ghostly",
+      "delivery": "cold scholarly baritone, precise, clinical, faintly amused, unhurried",
+      "lines": {
+        "ready": [
+          "Death is math.",
+          "Rise, my servants.",
+          "Solve for death.",
+          "A closed loop.",
+          "I have all time."
+        ],
+        "laugh": [
+          "Predictably solved.",
+          "The arithmetic holds."
+        ],
+        "cheer": [
+          "The grave spins on.",
+          "Elegant, as ever."
+        ],
+        "taunt": [
+          "You misunderstand mercy.",
+          "A solved equation."
+        ],
+        "nooo": [
+          "The loop breaks?",
+          "An error. Impossible."
+        ],
+        "hurt": [
+          "Life flows back.",
+          "Requited, in pain."
+        ],
+        "quip": [
+          "The living misunderstand.",
+          "I do not mend."
+        ]
+      }
+    },
+    "loud": {
+      "voice": "Ryan",
+      "pitch": 0,
+      "style": "loud",
+      "delivery": "booming bombastic over-projection, comedic volume, sincere and unstoppable",
+      "lines": {
+        "ready": [
+          "HEAR ME ROAR!",
+          "BATTLE CRY NOW!",
+          "HERE I COME!",
+          "NO SOFT TALKING!",
+          "LOUDER THAN EVER!"
+        ],
+        "laugh": [
+          "TOLD YOU SO!",
+          "I AM HEARD!"
+        ],
+        "cheer": [
+          "WE WON BIG!",
+          "ANNOUNCE THE WIN!"
+        ],
+        "taunt": [
+          "CAN YOU HEAR ME?",
+          "SPEAK UP, DEBRIS!"
+        ],
+        "nooo": [
+          "NOT GOING QUIET!",
+          "I REFUSE SILENCE!"
+        ],
+        "hurt": [
+          "STILL LOUD, BARELY!",
+          "THAT STUNG, FOLKS!"
+        ],
+        "quip": [
+          "This is my inside voice.",
+          "Worth every echo!"
+        ]
+      }
+    },
+    "lucky": {
+      "voice": "Aiden",
+      "pitch": 4,
+      "style": "base",
+      "delivery": "airy bubbly and cheerful, slightly slow and trailing into giggles",
+      "lines": {
+        "ready": [
+          "Lucky me again!",
+          "It just works out!",
+          "Here goes nothing!",
+          "Ooh, shiny things!",
+          "Off we go!"
+        ],
+        "laugh": [
+          "I won somehow!",
+          "Too easy for me!"
+        ],
+        "cheer": [
+          "Lucky again!",
+          "See? It worked!"
+        ],
+        "taunt": [
+          "Better luck next time!",
+          "You missed me!"
+        ],
+        "nooo": [
+          "But I'm so lucky!",
+          "No, not now!"
+        ],
+        "hurt": [
+          "Ow, that stung!",
+          "Wait, that hurt!"
+        ],
+        "quip": [
+          "Found a coin.",
+          "Things just happen."
+        ]
+      }
+    },
+    "mage": {
+      "voice": "Aiden",
+      "pitch": 2,
+      "style": "base",
+      "delivery": "theatrical imperious sorceress, rich and grandiose, savoring each word",
+      "lines": {
+        "ready": [
+          "Witness true power!",
+          "The elements obey!",
+          "Magic answers me!",
+          "Behold my craft!",
+          "Steel is beneath me!"
+        ],
+        "laugh": [
+          "All mere mortals!",
+          "Ash, all of it!"
+        ],
+        "cheer": [
+          "The arcane prevails!",
+          "Bow to magic!"
+        ],
+        "taunt": [
+          "You brought a blade?",
+          "Burn for me!"
+        ],
+        "nooo": [
+          "My power fades!",
+          "This cannot be!"
+        ],
+        "hurt": [
+          "My wards break!",
+          "You wound the craft!"
+        ],
+        "quip": [
+          "Words over steel.",
+          "The Sausage stays mine."
+        ]
+      }
+    },
+    "masochist": {
+      "voice": "Aiden",
+      "pitch": 1,
+      "style": "base",
+      "delivery": "soft serene adult voice, tender and unsettlingly pleased, savoring pain",
+      "lines": {
+        "ready": [
+          "Come hurt me.",
+          "I am ready.",
+          "Let it begin.",
+          "Give me your worst.",
+          "Strike me, please."
+        ],
+        "laugh": [
+          "What lovely bruises.",
+          "More for me."
+        ],
+        "cheer": [
+          "I grew stronger.",
+          "I outlasted it."
+        ],
+        "taunt": [
+          "Is that all?",
+          "Hit harder, dear."
+        ],
+        "nooo": [
+          "But I felt nothing.",
+          "Not finished yet."
+        ],
+        "hurt": [
+          "Oh, how kind.",
+          "Yes, more pain."
+        ],
+        "quip": [
+          "Thank the Doctor.",
+          "Wounds are gifts."
+        ]
+      }
+    },
+    "multitasker": {
+      "voice": "Aiden",
+      "pitch": 4,
+      "style": "base",
+      "delivery": "frazzled breathless and scattered, words tumbling out fast and anxious",
+      "lines": {
+        "ready": [
+          "Okay okay, all guns!",
+          "No time, let's go!",
+          "Twelve weapons ready!",
+          "Can't pick just one!",
+          "Everything at once!"
+        ],
+        "laugh": [
+          "Got it all done!",
+          "Somehow it worked!"
+        ],
+        "cheer": [
+          "All twelve fired!",
+          "Cleared, barely!"
+        ],
+        "taunt": [
+          "I've got more!",
+          "Pick a weapon? No!"
+        ],
+        "nooo": [
+          "I needed more time!",
+          "Not done with the list!"
+        ],
+        "hurt": [
+          "Too much at once!",
+          "Dropped something!"
+        ],
+        "quip": [
+          "Why choose, really?",
+          "So many things."
+        ]
+      }
+    },
+    "mutant": {
+      "voice": "Ryan",
+      "pitch": 1,
+      "style": "base",
+      "delivery": "twitchy nervous and compulsive, voice cracking with want, restless",
+      "lines": {
+        "ready": [
+          "I need more!",
+          "Buy it all!",
+          "Can't stop now!",
+          "Just one more thing!",
+          "Feed the hunger!"
+        ],
+        "laugh": [
+          "All mine, mine!",
+          "Bought the whole shop!"
+        ],
+        "cheer": [
+          "More to acquire!",
+          "The hunger grows!"
+        ],
+        "taunt": [
+          "You can't afford me!",
+          "I want what's yours!"
+        ],
+        "nooo": [
+          "But I needed more!",
+          "Not enough yet!"
+        ],
+        "hurt": [
+          "New limb hurts!",
+          "Something is changing!"
+        ],
+        "quip": [
+          "Is this my arm?",
+          "I stopped checking."
+        ]
+      }
+    },
+    "ogre": {
+      "voice": "Ryan",
+      "pitch": -3,
+      "style": "deep",
+      "delivery": "deep slow heavy giant rumble, simple childlike and warm",
+      "lines": {
+        "ready": [
+          "Ogre smash now!",
+          "Time to hit big!",
+          "Me ready, yes!",
+          "Ogre hit hard!",
+          "Walk up, smash!"
+        ],
+        "laugh": [
+          "They go boom!",
+          "Ogre win again!"
+        ],
+        "cheer": [
+          "Room is quiet now!",
+          "Ogre did good!"
+        ],
+        "taunt": [
+          "Come closer, please!",
+          "You stand still, good!"
+        ],
+        "nooo": [
+          "Ogre not done!",
+          "No, no smash left!"
+        ],
+        "hurt": [
+          "That hurt Ogre!",
+          "Ow, big ow!"
+        ],
+        "quip": [
+          "Smashing is nice.",
+          "Where is Dwarf?"
+        ]
+      }
+    },
+    "old": {
+      "voice": "Ryan",
+      "pitch": -2,
+      "style": "base",
+      "delivery": "elderly wry and slow, creaky warmth with a sly twinkle",
+      "lines": {
+        "ready": [
+          "No rush, kids.",
+          "Slow and steady wins.",
+          "Let them come to me.",
+          "Watch an old hand.",
+          "Take it easy now."
+        ],
+        "laugh": [
+          "Easy as ever.",
+          "Done it a thousand times."
+        ],
+        "cheer": [
+          "Still got it.",
+          "Old but gold."
+        ],
+        "taunt": [
+          "Catch me, youngster.",
+          "Wading through honey?"
+        ],
+        "nooo": [
+          "Not my time yet!",
+          "No, not today!"
+        ],
+        "hurt": [
+          "These old bones!",
+          "Mind the joints!"
+        ],
+        "quip": [
+          "Back in my day.",
+          "Nap time soon."
+        ]
+      }
+    },
+    "one-armed": {
+      "voice": "Ryan",
+      "pitch": 0,
+      "style": "base",
+      "delivery": "calm confident and measured, quietly self-possessed minimalist",
+      "lines": {
+        "ready": [
+          "One weapon, focused.",
+          "Less is more.",
+          "One is enough.",
+          "All in, one hand.",
+          "No distractions now."
+        ],
+        "laugh": [
+          "Just as planned.",
+          "Focus always wins."
+        ],
+        "cheer": [
+          "One arm, victory.",
+          "Mastery pays off."
+        ],
+        "taunt": [
+          "Spread thin, are you?",
+          "That's just arithmetic."
+        ],
+        "nooo": [
+          "Not like this!",
+          "I had it focused!"
+        ],
+        "hurt": [
+          "Steady, hold steady.",
+          "One hand still works!"
+        ],
+        "quip": [
+          "I don't divide.",
+          "One thing, perfectly."
+        ]
+      }
+    },
+    "pacifist": {
+      "voice": "Aiden",
+      "pitch": 2,
+      "style": "base",
+      "delivery": "soft, patient, gently sorrowful, calm with quiet steel under it",
+      "lines": {
+        "ready": [
+          "Let us keep peace.",
+          "No harm today.",
+          "Just breathe with me.",
+          "I will not fight.",
+          "Stay your hand, friend."
+        ],
+        "laugh": [
+          "Restraint pays well.",
+          "All still standing."
+        ],
+        "cheer": [
+          "No one was harmed!",
+          "Peace held again."
+        ],
+        "taunt": [
+          "I forgive you.",
+          "You may walk away."
+        ],
+        "nooo": [
+          "Not even now.",
+          "It cannot end gently."
+        ],
+        "hurt": [
+          "I still bear it.",
+          "Even this, peacefully."
+        ],
+        "quip": [
+          "So much still lives.",
+          "I count the spared."
+        ]
+      }
+    },
+    "ranger": {
+      "voice": "Ryan",
+      "pitch": 0,
+      "style": "base",
+      "delivery": "low, even, laconic marksman, economical, quietly confident, never rushed",
+      "lines": {
+        "ready": [
+          "Range is set.",
+          "Eyes on target.",
+          "Hold the distance.",
+          "One shot ready.",
+          "Wind accounted for."
+        ],
+        "laugh": [
+          "Clean every time.",
+          "Never even close."
+        ],
+        "cheer": [
+          "Sector is clear.",
+          "All rounds counted."
+        ],
+        "taunt": [
+          "You never saw me.",
+          "Too slow, too close."
+        ],
+        "nooo": [
+          "I made an error.",
+          "Distance failed me."
+        ],
+        "hurt": [
+          "They got too close.",
+          "Hit, but steady."
+        ],
+        "quip": [
+          "Discipline, not luck.",
+          "I do not miss."
+        ]
+      }
+    },
+    "renegade": {
+      "voice": "Ryan",
+      "pitch": 1,
+      "style": "base",
+      "delivery": "fast, loud, manic, gleefully reckless gunslinger, no filter, words tumbling",
+      "lines": {
+        "ready": [
+          "Fill the sky!",
+          "No aiming needed!",
+          "Let it rain lead!",
+          "More guns, now!",
+          "Saturate everything!"
+        ],
+        "laugh": [
+          "Too much lead!",
+          "Air did the aiming!"
+        ],
+        "cheer": [
+          "Whole horizon, gone!",
+          "Quantity wins again!"
+        ],
+        "taunt": [
+          "Catch all of it!",
+          "Aim is for cowards!"
+        ],
+        "nooo": [
+          "Out of bullets?!",
+          "Not while reloading!"
+        ],
+        "hurt": [
+          "Just a scratch!",
+          "Keep firing anyway!"
+        ],
+        "quip": [
+          "I brought all of them.",
+          "Accuracy is a lie."
+        ]
+      }
+    },
+    "romantic": {
+      "voice": "Aiden",
+      "pitch": 3,
+      "style": "base",
+      "delivery": "soft, warm, sighing, melodramatic, tender flowery pacing, dreamily devoted",
+      "lines": {
+        "ready": [
+          "For love alone!",
+          "Let us adore them.",
+          "My heart is open.",
+          "Win them over!",
+          "Charm, not blades."
+        ],
+        "laugh": [
+          "A new friend!",
+          "They blushed for me!"
+        ],
+        "cheer": [
+          "Love conquered all.",
+          "Hearts won today."
+        ],
+        "taunt": [
+          "Surrender to my charm.",
+          "You could love me."
+        ],
+        "nooo": [
+          "My heart, not yet!",
+          "Our story ends?"
+        ],
+        "hurt": [
+          "A wound of passion.",
+          "It aches so sweetly."
+        ],
+        "quip": [
+          "Hands empty, heart full.",
+          "Adore what still stands."
+        ]
+      }
+    },
+    "sailor": {
+      "voice": "Ryan",
+      "pitch": -1,
+      "style": "base",
+      "delivery": "low, salt-cracked, slow and superstitious, fatalistic gallows humor, resigned",
+      "lines": {
+        "ready": [
+          "The tide turns dark.",
+          "Curse rides with me.",
+          "Brace for the storm.",
+          "Set the cursed sail.",
+          "Fate pulls us under."
+        ],
+        "laugh": [
+          "The hex took them.",
+          "Drowned, every one."
+        ],
+        "cheer": [
+          "Made port again.",
+          "The sea spared me."
+        ],
+        "taunt": [
+          "The curse wants you.",
+          "Come meet the deep."
+        ],
+        "nooo": [
+          "The tide claims me.",
+          "Fate reeled me in."
+        ],
+        "hurt": [
+          "The curse bites back.",
+          "Taking on water."
+        ],
+        "quip": [
+          "Already made peace.",
+          "Don't name the thing."
+        ]
+      }
+    },
+    "saver": {
+      "voice": "Aiden",
+      "pitch": 3,
+      "style": "base",
+      "delivery": "dry, fretful, nervous penny-pincher, clutching each word like a coin",
+      "lines": {
+        "ready": [
+          "Spend nothing today.",
+          "Guard the hoard.",
+          "Keep every scrap.",
+          "Touch nothing, buy nothing.",
+          "Hold what's mine."
+        ],
+        "laugh": [
+          "Still got it all.",
+          "Not one coin spent."
+        ],
+        "cheer": [
+          "Hoard survived intact.",
+          "Saved it all again."
+        ],
+        "taunt": [
+          "You can't take it.",
+          "Get your own pile."
+        ],
+        "nooo": [
+          "My savings, no!",
+          "Not my hoard!"
+        ],
+        "hurt": [
+          "This'll cost me.",
+          "Patch it up cheap."
+        ],
+        "quip": [
+          "A long game, no spending.",
+          "I'm still standing on it."
+        ]
+      }
+    },
+    "sick": {
+      "voice": "Ryan",
+      "pitch": 1,
+      "style": "base",
+      "delivery": "thin, feverish, breathless, wry and exhausted, trailing off then rallying",
+      "lines": {
+        "ready": [
+          "Still upright, somehow.",
+          "Let's bleed them dry.",
+          "Death can wait.",
+          "One more wave, fine.",
+          "Feed me their life."
+        ],
+        "laugh": [
+          "Drank that one down.",
+          "Still kicking, somehow."
+        ],
+        "cheer": [
+          "Outlasted them again.",
+          "Not dead yet!"
+        ],
+        "taunt": [
+          "Come donate some blood.",
+          "You'll tire first."
+        ],
+        "nooo": [
+          "Finished, after all.",
+          "Not thoroughly enough."
+        ],
+        "hurt": [
+          "Losing a point.",
+          "The fever, again."
+        ],
+        "quip": [
+          "Dying very thoroughly.",
+          "Hopeless case, they say."
+        ]
+      }
+    },
+    "soldier": {
+      "voice": "Ryan",
+      "pitch": -1,
+      "style": "base",
+      "delivery": "clipped, controlled, terse sergeant, dry and hard-bitten, flat certainty",
+      "lines": {
+        "ready": [
+          "Hold the line.",
+          "Position secured.",
+          "Lock and load.",
+          "Feet planted, ready.",
+          "Eyes on the sector."
+        ],
+        "laugh": [
+          "Held the ground.",
+          "They broke first."
+        ],
+        "cheer": [
+          "Sector neutralized.",
+          "Line never moved."
+        ],
+        "taunt": [
+          "Break on my wall.",
+          "Flank me, then."
+        ],
+        "nooo": [
+          "Position overrun.",
+          "Line did not hold."
+        ],
+        "hurt": [
+          "Taking fire, holding.",
+          "Wounded, not moving."
+        ],
+        "quip": [
+          "Chose my ground.",
+          "Discipline wins wars."
+        ]
+      }
+    },
+    "speedy": {
+      "voice": "Ryan",
+      "pitch": 3,
+      "style": "base",
+      "delivery": "breezy and breathless, words tumbling out mid-sprint, light and restless",
+      "lines": {
+        "ready": [
+          "Gotta keep moving!",
+          "No time to stop!",
+          "Wind at my back!",
+          "Let's go, let's go!",
+          "Catch me first!"
+        ],
+        "laugh": [
+          "Too slow for me!",
+          "Eat my dust!"
+        ],
+        "cheer": [
+          "Never even close!",
+          "Still on my feet!"
+        ],
+        "taunt": [
+          "Bet you can't keep up.",
+          "Try and touch me."
+        ],
+        "nooo": [
+          "Not when I stopped!",
+          "I should've kept going!"
+        ],
+        "hurt": [
+          "Slowed me down!",
+          "That nearly clipped me!"
+        ],
+        "quip": [
+          "Stillness is death.",
+          "Onward, always onward."
+        ]
+      }
+    },
+    "streamer": {
+      "voice": "Aiden",
+      "pitch": 4,
+      "style": "base",
+      "delivery": "bright performative content-creator patter, fast and upbeat, addressing a camera",
+      "lines": {
+        "ready": [
+          "We are live, chat!",
+          "Hit that subscribe!",
+          "Going live right now!",
+          "Let's make some content!",
+          "Stream is starting!"
+        ],
+        "laugh": [
+          "Clip that, chat!",
+          "That's going viral!"
+        ],
+        "cheer": [
+          "Best stream ever!",
+          "Engagement is insane!"
+        ],
+        "taunt": [
+          "Say hi to chat.",
+          "You're my content now."
+        ],
+        "nooo": [
+          "Don't end the stream!",
+          "Not on camera!"
+        ],
+        "hurt": [
+          "That's gonna clip badly.",
+          "Chat, I'm hit!"
+        ],
+        "quip": [
+          "Is anyone watching?",
+          "All for the views."
+        ]
+      }
+    },
+    "technomage": {
+      "voice": "Ryan",
+      "pitch": -1,
+      "style": "robotic",
+      "delivery": "low, even, ceremonial certainty, faintly amused, never hurried",
+      "lines": {
+        "ready": [
+          "The turrets awaken.",
+          "Mana grid online.",
+          "Spell engines, engage.",
+          "Configure, then conquer.",
+          "Channels are open."
+        ],
+        "laugh": [
+          "Predictable, as computed.",
+          "The math holds."
+        ],
+        "cheer": [
+          "Sequence complete.",
+          "Orthodoxy, refuted."
+        ],
+        "taunt": [
+          "You misread the equation.",
+          "Obsolete, like your faith."
+        ],
+        "nooo": [
+          "The grid fails me!",
+          "This cannot compile!"
+        ],
+        "hurt": [
+          "Circuit compromised.",
+          "A flaw in the channel."
+        ],
+        "quip": [
+          "I do not hit. I configure.",
+          "The wall was never load-bearing."
+        ]
+      }
+    },
+    "vagabond": {
+      "voice": "Ryan",
+      "pitch": -1,
+      "style": "base",
+      "delivery": "mellow weathered drifter, unhurried and warm, faintly wistful",
+      "lines": {
+        "ready": [
+          "Another road begins.",
+          "Just passing through.",
+          "Let's see this through.",
+          "The wind says go.",
+          "One of everything."
+        ],
+        "laugh": [
+          "Seen it all before.",
+          "The road provides."
+        ],
+        "cheer": [
+          "On to the next.",
+          "Another tale collected."
+        ],
+        "taunt": [
+          "I owe you nothing.",
+          "You stayed too long."
+        ],
+        "nooo": [
+          "The road ends here?",
+          "Not this stop."
+        ],
+        "hurt": [
+          "Should've kept walking.",
+          "That one found me."
+        ],
+        "quip": [
+          "No roots, no regrets.",
+          "Home is the road."
+        ]
+      }
+    },
+    "vampire": {
+      "voice": "Aiden",
+      "pitch": 1,
+      "style": "menace",
+      "delivery": "velvet-smooth aristocratic theatricality, languid, savoring every word",
+      "lines": {
+        "ready": [
+          "Shall we begin, darling?",
+          "Let the wounds open.",
+          "I hunger, beautifully.",
+          "Bleed me lower.",
+          "The night is mine."
+        ],
+        "laugh": [
+          "Exquisite, simply exquisite.",
+          "All mine, darling."
+        ],
+        "cheer": [
+          "Magnificent, as always.",
+          "Death becomes me."
+        ],
+        "taunt": [
+          "Come closer, darling.",
+          "Your blood is calling."
+        ],
+        "nooo": [
+          "Not yet, darling!",
+          "This is no way to die!"
+        ],
+        "hurt": [
+          "How thrilling.",
+          "Lower still, then."
+        ],
+        "quip": [
+          "Stronger as I fade.",
+          "A healthy vampire bores me."
+        ]
+      }
+    },
+    "well-rounded": {
+      "voice": "Ryan",
+      "pitch": 0,
+      "style": "base",
+      "delivery": "plain warm everyman cadence, modest and grounded, unhurried",
+      "lines": {
+        "ready": [
+          "Alright, here we go.",
+          "Let's get to it.",
+          "Fair day for it.",
+          "Nothing fancy needed.",
+          "Just doing my part."
+        ],
+        "laugh": [
+          "Well, would you look.",
+          "Not bad for ordinary."
+        ],
+        "cheer": [
+          "Made it through again.",
+          "Home in one piece."
+        ],
+        "taunt": [
+          "Nothing special, am I?",
+          "You first, then."
+        ],
+        "nooo": [
+          "Not me too.",
+          "I just wanted home."
+        ],
+        "hurt": [
+          "That smarts a bit.",
+          "Steady now, steady."
+        ],
+        "quip": [
+          "Somebody's gotta be normal.",
+          "I sleep just fine."
+        ]
+      }
+    },
+    "wildling": {
+      "voice": "Ryan",
+      "pitch": -1,
+      "style": "base",
+      "delivery": "gruff and primal, short proud declarations, earthy and unpolished",
+      "lines": {
+        "ready": [
+          "Stick is ready.",
+          "Old ways now.",
+          "Hands and wood.",
+          "No metal needed.",
+          "The wild wakes."
+        ],
+        "laugh": [
+          "Wood beats steel.",
+          "Simple is best."
+        ],
+        "cheer": [
+          "Stick never lies.",
+          "Old ways win."
+        ],
+        "taunt": [
+          "You trust shiny things.",
+          "Come meet my stick."
+        ],
+        "nooo": [
+          "The stick fails?",
+          "Not the old way!"
+        ],
+        "hurt": [
+          "Flesh, not wood.",
+          "It bit me."
+        ],
+        "quip": [
+          "New things break.",
+          "I know my weapon."
+        ]
+      }
+    },
+    "wounded": {
+      "voice": "Aiden",
+      "pitch": 1,
+      "style": "ghostly",
+      "delivery": "eerily calm with a twitchy edge, quiet deliberate pacing, dark-zen",
+      "lines": {
+        "ready": [
+          "One hit. As always.",
+          "Quietly now.",
+          "Let's not get touched.",
+          "Careful steps only.",
+          "Here we go again."
+        ],
+        "laugh": [
+          "Still here, somehow.",
+          "Death missed again."
+        ],
+        "cheer": [
+          "Untouched. Imagine that.",
+          "One more wave survived."
+        ],
+        "taunt": [
+          "Go on, try once.",
+          "One touch is all."
+        ],
+        "nooo": [
+          "That was the one!",
+          "Just one hit!"
+        ],
+        "hurt": [
+          "That should've ended me.",
+          "Too close. Far too close."
+        ],
+        "quip": [
+          "Everybody dies in one hit.",
+          "I just found out early."
+        ]
+      }
+    }
+  }
+}

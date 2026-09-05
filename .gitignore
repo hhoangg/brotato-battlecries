@@ -1,0 +1,6 @@
+# Build output
+dist/
+
+# Scratch
+*.bak
+.DS_Store

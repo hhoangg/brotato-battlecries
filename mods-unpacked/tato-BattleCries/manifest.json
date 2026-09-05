@@ -1,0 +1,17 @@
+{
+	"name": "BattleCries",
+	"namespace": "tato",
+	"version_number": "0.5.3",
+	"description": "Random character voice line at wave start, plus an emote wheel (hold a key/button) to play emotion voices on demand. In co-op each player emotes with their own character; the wave-start bark is the leader's. The voices can be turned off in Settings > Audio.",
+	"website_url": "",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"incompatibilities": [],
+			"authors": ["byptah"],
+			"compatible_mod_loader_version": ["6.0.0"],
+			"compatible_game_version": [],
+			"config_defaults": {}
+		}
+	}
+}

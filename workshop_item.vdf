@@ -1,0 +1,35 @@
+"workshopitem"
+{
+	"appid"            "1942280"
+	"publishedfileid"  "3742196613"
+	"contentfolder"    "__CONTENTFOLDER__"
+	"previewfile"      "__PREVIEWFILE__"
+	"title"            "Battle Cries — Character Voices"
+	"description"      "[h1]Battle Cries[/h1]
+Every character gets a voice. All 64 base characters have their own lines — a random battle-cry when a wave starts, plus an emote wheel to shout an emotion on demand during a run. Each character is voiced with its own personality and emotional delivery.
+
+[h1]How to use[/h1]
+[b]Wave start[/b] — automatic: your character shouts a random line each time a wave begins.
+[b]Emote wheel[/b] — during a run, hold [b]T[/b] (keyboard) or [b]L2[/b] (controller), aim with the [b]mouse[/b] or the [b]right analog stick[/b], then release to play. Six emotions: Laugh, Cheer, Taunt, Nooo!, Hurt, Quip.
+[b]Co-op[/b] — each player opens their own wheel with their own controller/keyboard and emotes with their own character. (The automatic wave-start bark is the leader's.)
+[b]Turn it off[/b] — toggle the voices any time in [b]Settings > Audio > Character Voices[/b].
+
+[h1]Notes[/h1]
+[list]
+[*]All 64 base characters are voiced.
+[*]Voices are in English; on-screen labels follow the in-game language.
+[*]The emote wheel only opens during a run, never in menus.
+[/list]
+
+[b]Tiếng Việt:[/b] Mỗi nhân vật có giọng nói riêng (đủ 64 nhân vật gốc). Đầu mỗi wave nhân vật tự hô một câu; trong trận giữ [b]T[/b] (bàn phím) hoặc [b]L2[/b] (tay cầm), ngắm bằng chuột hoặc cần analog phải rồi thả ra để phát cảm xúc. Chơi co-op: mỗi người dùng tay cầm/bàn phím của mình để mở bánh xe và emote bằng chính nhân vật của họ (câu hô đầu wave là của leader). Có thể bật/tắt giọng bất cứ lúc nào trong [b]Cài đặt > Âm Thanh[/b].
+
+Requires Godot Mod Loader.
+
+[h1]Support / Donate[/h1]
+Made for fun and free — if you'd like to support development, donations are welcome:
+[b]SOL:[/b] BrbAhUTN6EPPnPLg9C4823esQyxCHKYfe8SyxF7oyeZF
+[b]ETH:[/b] 0x2ba15d62dc27e45e4cb5ecada8969f2b13e7d534
+[b]BTC:[/b] bc1p4sn9quh0g72rmmr4j5chyauc3msj2xxva4rw8kd0w93a8dkt3gcsn253gh
+Thank you!"
+	"changenote"       "Update Thumbnail."
+}
